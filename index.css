@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236,236,235);
+}
+.bulb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.bulb img{
+    width: 400px;
+}
+.switch{
+    display: flex;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+button{
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.switch button:first-child{
+    background-color: green;
+}
+.switch button:nth-child(2){
+    border: 2px solid rgb(48,47,47);
+}
+button:hover{
+    scale: 1.5;
+}
